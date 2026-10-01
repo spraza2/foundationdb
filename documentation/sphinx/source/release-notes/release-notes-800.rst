@@ -272,7 +272,6 @@ Build and packaging
   contain runnable, unstripped executables for profiling and crash analysis.
   `(PR #13904) <https://github.com/apple/foundationdb/pull/13904>`_
 * Upgraded RocksDB from **9.7.3** to **11.1.2**.
-  `(PR #14188) <https://github.com/apple/foundationdb/pull/14188>`_,
   `(PR #14189) <https://github.com/apple/foundationdb/pull/14189>`_
 * Updated the main Docker image base to Rocky Linux **10.2**.
   `(PR #12549) <https://github.com/apple/foundationdb/pull/12549>`_
