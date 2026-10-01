@@ -271,11 +271,9 @@ Build and packaging
 * Compressed release debug information and changed ``*.debug`` artifacts to
   contain runnable, unstripped executables for profiling and crash analysis.
   `(PR #13904) <https://github.com/apple/foundationdb/pull/13904>`_
-* The source build selects RocksDB **9.7.3**, compared with **8.11.4** on the
-  audited 7.4 branch. See the
-  `8.0 RocksDB version configuration <https://github.com/apple/foundationdb/blob/3e8f0d8546c7cf723bb33e0decdb31fa1e9db841/cmake/RocksDBVersion.cmake>`_
-  and the
-  `7.4 RocksDB version configuration <https://github.com/apple/foundationdb/blob/a5c62d6846c0402801e8fb9ac881fc9a86c2304a/cmake/RocksDBVersion.cmake>`_.
+* Upgraded RocksDB from **9.7.3** to **11.1.2**.
+  `(PR #14188) <https://github.com/apple/foundationdb/pull/14188>`_,
+  `(PR #14189) <https://github.com/apple/foundationdb/pull/14189>`_
 * Updated the main Docker image base to Rocky Linux **10.2**.
   `(PR #12549) <https://github.com/apple/foundationdb/pull/12549>`_
 * Upgraded Boost to **1.89.0**.
